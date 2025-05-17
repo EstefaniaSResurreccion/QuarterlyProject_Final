@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+header {
+    padding: 10px;
+    text-align: center;
+    background: #8eb6eeaa;
+    color: rgb(255, 254, 254);
+    font-size: 25px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+body{
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+.boxxx{
+    display: flex;
+    flex:1;
+    justify-content: left;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top:100px;
+}
+.boxx{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top:100px;
+} 
+.box{
+    width:325px;
+    background-color: rgb(255, 254, 254);
+    border-radius:10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease-in;
+}
+.box:hover{
+    transform: translateY(20px);
+}
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content1{
+    padding: 20px;
+    height: auto;
+}
+.content{
+    padding: 20px;
+    height: auto;
+}
+.content2
+{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.content2 h1{ 
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.content2 p{
+    font-size: 20px;
+    color:black;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.content1 h1{ 
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.content1 p{
+    font-size: 20px;
+    color:black;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}.content h1{ 
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.content p{
+    font-size: 20px;
+    color:black;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.click {
+    display: inline-block;
+    background-color: rgba(106, 163, 243, 0.721);
+    color:rgb(255, 254, 254);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 6px 3px 3px;
+}
+.click:hover{
+    background-color: black;
+    color: #a5cbff;
+}
+
+section{
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-color: #a5cbff;
+    width: 90%;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    background-color:#a5cbff;
+    
+}
+aside{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top:100px;
+
+}
+.inner img{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+.outer1{
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-color: #a5cbff;
+    width: 90%;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    background-color:#a5cbff;
+    
+}
+.outer2{
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-color: #a5cbff;
+    width: 100%;
+    height: auto;
+    margin: 20px 10px 10px 0px;
+    background-color:#a5cbff;
+}
+article{
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    border-color: #a5cbff;
+    width: 90%;
+    height: auto;
+    margin: 30px 10px 10px 10px;
+    background-color:#a5cbff;
+}
+
+.inner2 img{
+    width: 10%;
+    height: auto;
+    float: left;
+}
+ 
+
+
+footer{
+
+    padding: 5px;
+    text-align: center;
+    background: #8eb6eeaa;
+    color: rgb(255, 254, 254);
+    font-size: 15px; 
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.Email{
+    background: url('Images/logo.jpg') no-repeat -712px -120px;
+	width: 58px;
+	height: 56px; 
+}
+
+.Email:hover{
+    background: url('Images/logo.jpg') no-repeat -712px -184px;
+	width: 58px;
+	height: 56px;
+}
+
+.Whatsapp{
+    background: url('Images/logo.jpg') no-repeat -792px -120px;
+	width: 58px;
+	height: 56px;
+}
+
+.Whatsapp:hover{
+    background: url('Images/logo.jpg') no-repeat -792px -184px;
+	width: 58px;
+	height: 56px;
+}
+
+.Email .Whatsapp {
+    float: left;
+}
+
+
+.out{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top:100px;
+}
+
+.in{
+    width:325px;
+    background-color: rgb(255, 254, 254);
+    border-radius:10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.info{
+    font-size: 20px;
+    color: black;
+    margin: 5px;
+    float: right;
+}
+
+.cat{
+    
+    position: absolute;
+    background: url('Images/Animating-A-Sprite.jpg')  no-repeat -10px -10px;
+	width: 68px;
+	height: 96px;
+    animation: walking 1s steps(5) infinite;
+    transform: translate(10px, 100px);
+    
+
+}
+
+@keyframes walking{
+0%{
+    background-position: 0 0;
+}
+
+100%{
+    background-position: -250px 0 ;
+}
+}
+
+video{
+    transform: translate(700px, -900px);
+}
+
+.inner img:hover{
+    transform: scale(1.5);
+}
+
+.inner2 img:hover{
+    transform: scale(1.5);
+}
+
+[class$="tent"]{
+    background-color: blanchedalmond;
+    height:auto;
+}
+
+
+.container{
+    background-color: #a5cbff;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+  }
+
+
+
+#profileInfo{
+   
+    background-color: #a5cbff;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
